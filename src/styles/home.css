@@ -1,0 +1,47 @@
+.new-contact-button {
+  display: flex;
+  justify-content: right;
+  width: 80%;
+}
+
+.contact-slot {
+  display: flex;
+  flex-direction: column;
+  border: solid black 1px;
+  height: 130px;
+  width: 80%;
+  margin: 10px;
+}
+
+name-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr; /* Adjust column widths */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  width: 80%;
+}
+
+.name-contact-row {
+  font-size: 25px;
+}
+
+.address-contact-row {
+  display: flex;
+  width: 80%;
+}
+
+.phone-contact-row {
+  display: flex;
+  width: 80%;
+}
+
+.email-contact-row {
+  display: flex;
+  width: 80%;
+}
+
+.garbage-icon {
+  font-size: 20px;
+  justify-self: end; /* Align the icon to the end of its grid cell */
+  margin-left: 1400px;
+}
